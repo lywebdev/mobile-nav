@@ -9,3 +9,21 @@
 .childrens {
     margin-left: 10px;
 }
+
+
+.mobile-categories {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-categories a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.mobile-categories a:not(:last-child) {
+    margin-bottom: 7px;
+}
